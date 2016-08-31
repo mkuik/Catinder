@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.Main"
+    android:id="@android:id/tabhost">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Header">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:paddingTop="18dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="18dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_options"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/decsr_overflow_button"
+                android:onClick="showPopup"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/background_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/main_activity_background_small"/>
+
+            <kuik.matthijs.catinder.ui.Sun
+                android:id="@+id/sun_icon"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:clipChildren="false"
+                android:layout_marginRight="-80dp"
+                android:layout_marginTop="-80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v4.app.FragmentTabHost>

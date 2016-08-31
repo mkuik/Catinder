@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="SwipeFlingStyle">@style/SwipeFling</item>
+
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="InputFormHint">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="HeaderInputForm">
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="colorControlNormal">@color/headerTextColor</item>
+        <item name="colorControlActivated">@color/headerTextColor</item>
+        <item name="android:textColorPrimary">@color/headerTextColor</item>
+        <item name="android:textColor">@color/headerTextColor</item>
+        <item name="android:textColorHint">@color/headerTextColor</item>
+    </style>
+
+    <style name="HeaderInputFormHint" parent="InputFormHint">
+        <!--<item name="android:textColor">@color/white</item>-->
+    </style>
+
+    <style name="HeaderTabWidget">
+        <item name="android:background">@color/headerColor</item>
+    </style>
+
+    <style name="StyledTilEditText">
+        <item name="android:theme">@style/HeaderInputForm</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <style name="Header" parent="AppTheme">
+        <item name="android:background">@color/headerColor</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+
+    <style name="MatchItemStyle">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:shadowColor">#86000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <!-- <vlees_item name="android:background">@color/black_overlay</vlees_item> -->
+    </style>
+
+    <style name="Transparent" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="InputFormBorder">
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="InputFormBorder2">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="InputForm">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="InputFormButton" parent="InputForm">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

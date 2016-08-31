@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.Matches"
+    tools:showIn="@layout/activity_share_image">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="3"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="0dp"
+        android:focusable="true"
+        android:clickable="true"
+        tools:listitem="@layout/match_item"
+        android:animateLayoutChanges="true"
+        android:columnWidth="100dp" />
+
+</FrameLayout>

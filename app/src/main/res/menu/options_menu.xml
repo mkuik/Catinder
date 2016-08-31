@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout_descr"/>
+    <item
+        android:id="@+id/my_gallery"
+        android:title="@string/my_gallery_menu_name" />
+    <item
+        android:id="@+id/clear_cache"
+        android:title="@string/clear_cache_descr" />
+</menu>

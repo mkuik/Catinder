@@ -1,0 +1,39 @@
+<resources>
+    <string name="server_ip">85.144.65.242</string>
+    <integer name="server_port">13001</integer>
+    <integer name="image_port">13002</integer>
+    <string name="app_name">Catinder</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_picture">Please select a profile picture</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_hint">Naam</string>
+    <string name="email_hint">Email</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="prompt_name">Naam</string>
+    <string name="reqister_button">Registreer</string>
+    <string name="error_invalid_name">Please provide your name</string>
+    <string name="ip_address">IP Address</string>
+    <string name="port_number">Port number</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="decsr_overflow_button">Opties</string>
+    <string name="logout_descr">Uitloggen</string>
+    <string name="save_data_descr">Save data</string>
+    <string name="my_gallery_menu_name">Mijn gallerij</string>
+    <string name="clear_cache_descr">Clear cache</string>
+    <string name="left_heart_chamber">left heart chamber</string>
+    <string name="right_heart_chamber">right heart chamber</string>
+    <string name="tab_icon">tab icon</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="profile_picture_edit_button">profile picture edit button</string>
+    <string name="gallery_image">gallery image</string>
+</resources>

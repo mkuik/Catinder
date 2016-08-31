@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="@drawable/swipe_card_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/foto"
+        android:scaleType="centerCrop"
+        android:cropToPadding="false"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/profile_picture" />
+
+    <EditText
+        android:id="@+id/naam"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/swipe_card_name_background"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:enabled="false"
+        android:inputType="text" />
+</RelativeLayout>

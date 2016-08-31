@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="HeartsOverlay">
+        <attr name="numberOfHearts" format="integer" />
+    </declare-styleable>
+</resources>

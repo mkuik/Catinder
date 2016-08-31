@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.Candidates"
+    android:id="@+id/vlees">
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/fapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:max_visible="2"
+        tools:listitem="@layout/vlees_item" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <kuik.matthijs.catinder.ui.HeartsOverlay
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/hearts_overlay"
+                app:numberOfHearts="3"
+                android:animateLayoutChanges="true"/>
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/reshuffle"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:src="@mipmap/ic_reshuffle"
+                android:background="#00ffffff"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_bird_2"
+                android:id="@+id/left"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_plygon_heart_1"
+                android:id="@+id/right"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

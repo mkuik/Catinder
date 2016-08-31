@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+    <color name="colorAccent">@color/orange</color>
+    <color name="headerTextColor">@color/white</color>
+    <color name="headerColor">@color/sky_blue</color>
+    <color name="naviBarColor">@color/grass_green</color>
+
+    <color name="blue">#3f51b5</color>
+    <color name="white">#ffffff</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="orange">@android:color/holo_orange_dark</color>
+    <color name="brown">#743c38</color>
+    <color name="sky_blue">#35aaa3</color>
+    <color name="grass_green">#417249</color>
+</resources>

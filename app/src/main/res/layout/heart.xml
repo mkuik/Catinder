@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/left_heart"
+        android:scaleType="fitEnd"
+        android:layout_weight="1"
+        android:contentDescription="@string/left_heart_chamber"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/right_heart"
+        android:scaleType="fitStart"
+        android:layout_weight="1"
+        android:contentDescription="@string/right_heart_chamber"/>
+</LinearLayout>
